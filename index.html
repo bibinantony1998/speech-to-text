@@ -33,7 +33,7 @@
         window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
         const recognition = new SpeechRecognition();
         recognition.interimResults = true;
-        recognition.lang = "ml_IN"
+        recognition.lang = "ml_IN",
 
         function startSpeech () {
             speechButton.style = "display: none";
